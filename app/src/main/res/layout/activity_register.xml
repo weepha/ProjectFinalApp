@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <AbsoluteLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="329dp"
+            android:layout_height="54dp"
+            android:layout_x="45dp"
+            android:layout_y="230dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="51dp"
+            android:layout_height="44dp"
+            android:layout_x="69dp"
+            android:layout_y="398dp"
+            app:srcCompat="@drawable/profile_photoroom" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="329dp"
+            android:layout_height="54dp"
+            android:layout_x="47dp"
+            android:layout_y="494dp"
+            app:srcCompat="@drawable/square" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="75dp"
+            android:layout_y="97dp"
+            android:text="welcome Back"
+            android:textColor="#07833D"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="142dp"
+            android:layout_y="564dp"
+            android:text="Login to your account"
+            android:textColor="#979090" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="109dp"
+            android:layout_y="662dp"
+            android:text="Don’s have account?"
+            android:textColor="#979090" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="247dp"
+            android:layout_y="664dp"
+            android:text="Sign up"
+            android:textColor="#088940" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="323dp"
+            android:layout_height="58dp"
+            android:layout_x="50dp"
+            android:layout_y="589dp"
+            app:srcCompat="@drawable/square2" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_x="60dp"
+            android:layout_y="502dp"
+            app:srcCompat="@drawable/key_photoroom" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="48dp"
+            android:layout_height="29dp"
+            android:layout_x="308dp"
+            android:layout_y="506dp"
+            app:srcCompat="@drawable/eye_photoroom" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_x="130dp"
+            android:layout_y="399dp"
+            android:ems="10"
+            android:hint="Fullname"
+            android:inputType="text"
+            android:textColor="#3F51B5" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_x="119dp"
+            android:layout_y="490dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="172dp"
+            android:layout_y="604dp"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </AbsoluteLayout>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="329dp"
+        android:layout_height="54dp"
+        android:layout_x="50dp"
+        android:layout_y="396dp"
+        app:srcCompat="@drawable/square" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="51dp"
+        android:layout_height="44dp"
+        android:layout_x="69dp"
+        android:layout_y="398dp"
+        app:srcCompat="@drawable/profile_photoroom" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="329dp"
+        android:layout_height="54dp"
+        android:layout_x="47dp"
+        android:layout_y="494dp"
+        app:srcCompat="@drawable/square" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="118dp"
+        android:layout_y="341dp"
+        android:text="Login to your account"
+        android:textColor="#979090" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="109dp"
+        android:layout_y="662dp"
+        android:text="Don’s have account?"
+        android:textColor="#979090" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="247dp"
+        android:layout_y="664dp"
+        android:text="Sign up"
+        android:textColor="#088940" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="323dp"
+        android:layout_height="58dp"
+        android:layout_x="50dp"
+        android:layout_y="589dp"
+        app:srcCompat="@drawable/square2" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_x="60dp"
+        android:layout_y="502dp"
+        app:srcCompat="@drawable/key_photoroom" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="48dp"
+        android:layout_height="29dp"
+        android:layout_x="308dp"
+        android:layout_y="506dp"
+        app:srcCompat="@drawable/eye_photoroom" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="399dp"
+        android:ems="10"
+        android:hint="Fullname"
+        android:inputType="text"
+        android:textColor="#3F51B5" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_x="119dp"
+        android:layout_y="490dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="172dp"
+        android:layout_y="604dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+</AbsoluteLayout>

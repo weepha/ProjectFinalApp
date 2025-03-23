@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".herbalinformation">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_x="225dp"
+        android:layout_y="442dp"
+        android:text="ขมิ้นชัน" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_x="46dp"
+        android:layout_y="618dp"
+        android:text="ขิง" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_x="223dp"
+        android:layout_y="619dp"
+        android:text="มะขามป้อม" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="492dp"
+        android:layout_height="80dp"
+        android:layout_x="-13dp"
+        android:layout_y="662dp"
+        app:srcCompat="@drawable/square" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="94dp"
+        android:text="ข้อมูลสมุนไพร"
+        android:textColor="#07833D"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="337dp"
+        android:layout_height="44dp"
+        android:layout_x="45dp"
+        android:layout_y="169dp"
+        android:background="#C8C2C2"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="154dp"
+        android:layout_height="37dp"
+        android:layout_x="42dp"
+        android:layout_y="241dp"
+        android:text="สมุนไพรที่นิยมใช้" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="443dp"
+        android:text="ฟ้าทะลายโจร" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="148dp"
+        android:layout_height="128dp"
+        android:layout_x="45dp"
+        android:layout_y="301dp"
+        app:srcCompat="@drawable/AndrographisPaniculata" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="151dp"
+        android:layout_height="129dp"
+        android:layout_x="226dp"
+        android:layout_y="300dp"
+        app:srcCompat="@drawable/Turmeric1" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="144dp"
+        android:layout_height="135dp"
+        android:layout_x="46dp"
+        android:layout_y="470dp"
+        app:srcCompat="@drawable/Ginger1" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="158dp"
+        android:layout_height="130dp"
+        android:layout_x="224dp"
+        android:layout_y="473dp"
+        app:srcCompat="@drawable/IndianGooseberry" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_x="44dp"
+        android:layout_y="674dp"
+        app:srcCompat="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="53dp"
+        android:layout_height="59dp"
+        android:layout_x="193dp"
+        android:layout_y="665dp"
+        app:srcCompat="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="57dp"
+        android:layout_height="67dp"
+        android:layout_x="346dp"
+        android:layout_y="661dp"
+        app:srcCompat="@drawable/profile" />
+
+</AbsoluteLayout>

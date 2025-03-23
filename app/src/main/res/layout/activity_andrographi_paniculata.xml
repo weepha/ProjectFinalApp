@@ -8,10 +8,25 @@
     tools:context=".AndrographiPaniculata">
 
     <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="84dp"
+        android:layout_y="59dp"
+        app:srcCompat="@drawable/andrographispaniculata" />
+
+    <ImageView
         android:id="@+id/imageView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="69dp"
         android:layout_y="71dp"
         app:srcCompat="@drawable/AndrographisPaniculata" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="271dp"
+        android:layout_height="437dp"
+        android:layout_x="79dp"
+        android:layout_y="254dp" />
 </AbsoluteLayout>

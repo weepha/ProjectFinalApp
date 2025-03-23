@@ -2,4 +2,14 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="green_dark">#388E3C</color> <!-- ตัวอย่างสีเขียวเข้ม -->
+    <color name="red_light">#FFCDD2</color> <!-- สีแดงอ่อน -->
+    <color name="red_dark">#D32F2F</color> <!-- สีแดงเข้ม -->
+    <!-- สีของปุ่มในสถานะปกติ -->
+    <color name="button_default">#4CAF50</color>
+    <!-- สีของปุ่มเมื่อถูกกด -->
+    <color name="button_pressed">#388E3C</color>
+
+
+
 </resources>

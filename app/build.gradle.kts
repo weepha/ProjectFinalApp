@@ -32,8 +32,10 @@ android {
 }
 
 dependencies {
-
-    implementation(libs.appcompat)
+    implementation(libs.appcompat) // ถ้า libs นั้นมีอยู่แล้วในไฟล์ build.gradle.kts
+    implementation("androidx.appcompat:appcompat:1.2.0")  // ถ้าคุณต้องการเพิ่มเวอร์ชันนี้เอง
+    implementation ("com.google.android.material:material:1.2.0")
+    implementation ("androidx.activity:activity:1.2.0")
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)

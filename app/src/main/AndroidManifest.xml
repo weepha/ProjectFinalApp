@@ -13,16 +13,43 @@
         android:theme="@style/Theme.ProjectFinalApp"
         tools:targetApi="31">
         <activity
-            android:name=".AndrographiPaniculata"
+            android:name=".Orthosiphon_aristatus"
             android:exported="false" />
         <activity
-            android:name=".herbalinformation"
+            android:name=".Licorice_Root"
+            android:exported="false" />
+        <activity
+            android:name=".Pandan_Leaf"
+            android:exported="false" />
+        <activity
+            android:name=".Lemongrass"
+            android:exported="false" />
+        <activity
+            android:name=".Indian_Gooseberry"
+            android:exported="false" />
+        <activity
+            android:name=".Ginger"
+            android:exported="false" />
+        <activity
+            android:name=".Holy_Basil"
+            android:exported="false" />
+        <activity
+            android:name=".Boesenbergia_rotunda"
+            android:exported="false" />
+        <activity
+            android:name=".Turmeric"
             android:exported="false" />
         <activity
             android:name=".Register"
             android:exported="false" />
         <activity
+            android:name=".activity_herbalinformation"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndrographiPaniculata"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

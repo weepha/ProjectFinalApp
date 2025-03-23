@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Orthosiphon_aristatus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="16dp">
+
+            <!-- เพิ่มรูปหญ้าหนวดแมว -->
+            <ImageView
+                android:id="@+id/imageViewOrthosiphonAristatus"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/orthosiphonaristatus"
+                android:contentDescription="หญ้าหนวดแมว"
+                android:scaleType="centerCrop" />
+
+            <!-- ชื่อสมุนไพร -->
+            <TextView
+                android:id="@+id/textViewMainTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌿 หญ้าหนวดแมว (Orthosiphon aristatus)"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/green_dark"
+                android:layout_marginBottom="8dp" />
+
+            <!-- คำบรรยาย -->
+            <TextView
+                android:id="@+id/textViewDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="หญ้าหนวดแมวเป็นพืชล้มลุก มีลำต้นตรงสูงประมาณ 30-90 ซม. ใบมีลักษณะรูปรีขอบขนานและมีขนบางๆ ใต้ใบ"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- ลักษณะภายนอก -->
+            <TextView
+                android:id="@+id/textViewFeaturesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔍 ลักษณะภายนอกของเครื่องยา"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textViewFeatures"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="หญ้าหนวดแมวเป็นพืชล้มลุก มีลำต้นตรงสูงประมาณ 30-90 ซม. ใบมีลักษณะรูปรีขอบขนานและมีขนบางๆ ใต้ใบ ดอกมีลักษณะคล้ายหนวดแมว สีขาวหรือม่วงอ่อน"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- สรรพคุณทางยา -->
+            <TextView
+                android:id="@+id/textViewBenefitsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💊 สรรพคุณทางยา"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textViewBenefits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✅ ลดอาการบวม\n✅ ขับปัสสาวะและช่วยลดน้ำหนัก\n✅ บำรุงตับและป้องกันโรคไต\n✅ บรรเทาอาการท้องผูก\n✅ ลดระดับน้ำตาลในเลือด"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- วิธีใช้ -->
+            <TextView
+                android:id="@+id/textViewUsageTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📝 วิธีใช้หญ้าหนวดแมว"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textViewUsage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔹 ชาสมุนไพรหญ้าหนวดแมว: ใช้ดื่มตามคำแนะนำของผู้ผลิตหรือแพทย์\n🔹 ผงแคปซูลหญ้าหนวดแมว: ใช้ตามคำแนะนำ\n🔹 ยาน้ำ: ใช้ตามขนาดที่กำหนด"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- ข้อควรระวัง -->
+            <TextView
+                android:id="@+id/textViewWarningTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚠️ ข้อควรระวังในการใช้หญ้าหนวดแมว"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textViewWarning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔴 ควรหลีกเลี่ยงการใช้ในผู้ที่มีอาการแพ้พืชชนิดนี้\n🔴 ควรปรึกษาแพทย์ก่อนใช้ในผู้ที่มีโรคประจำตัว เช่น โรคไต โรคตับ หรือผู้ที่ตั้งครรภ์\n🔴 ไม่ควรใช้ในปริมาณมากเกินไป เพราะอาจทำให้เกิดผลข้างเคียง เช่น ปวดท้อง หรือท้องเสีย"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- สรุป -->
+            <TextView
+                android:id="@+id/textViewSummaryTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌱 หญ้าหนวดแมวเป็นสมุนไพรที่มีสรรพคุณในการขับปัสสาวะ บำรุงตับและลดอาการท้องผูก"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textViewSummary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="หญ้าหนวดแมวช่วยในการลดอาการบวม ขับปัสสาวะ และลดระดับน้ำตาลในเลือด แต่ควรใช้อย่างระมัดระวัง"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</AbsoluteLayout>

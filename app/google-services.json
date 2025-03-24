@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "373937158843",
+    "project_id": "herbalapp-project",
+    "storage_bucket": "herbalapp-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373937158843:android:07bcf93ddd731a8ab9879e",
+        "android_client_info": {
+          "package_name": "com.example.projectfinalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9a6CIbVN8N8AB7tWoM-2ybFMQXLvmRxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -143,6 +143,21 @@
                 android:textSize="16sp"
                 android:layout_marginBottom="16dp" />
 
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/backindianBT"
+        android:layout_width="370dp"
+        android:layout_height="71dp"
+        android:layout_x="17dp"
+        android:layout_y="761dp"
+        android:text="Go Back"
+        android:textSize="20sp" />
+
 </AbsoluteLayout>

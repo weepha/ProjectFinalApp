@@ -9,7 +9,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:padding="16dp">
 
         <LinearLayout
@@ -19,129 +19,130 @@
             android:paddingTop="16dp">
 
             <!-- เพิ่มรูปกระชาย -->
+
             <ImageView
                 android:id="@+id/boesenbergiarotunda"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_marginTop="16dp"
-                android:src="@drawable/boesenbergiarotunda"
                 android:contentDescription="กระชาย"
-                android:scaleType="centerCrop" />
+                android:scaleType="centerCrop"
+                android:src="@drawable/boesenbergiarotunda" />
 
             <!-- ชื่อสมุนไพร -->
             <TextView
                 android:id="@+id/textViewMainTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="🌱 กระชาย: สมุนไพรเสริมพลัง บำรุงร่างกาย"
-                android:textSize="22sp"
-                android:textStyle="bold"
                 android:textColor="@color/green_dark"
-                android:layout_marginBottom="8dp" />
+                android:textSize="22sp"
+                android:textStyle="bold" />
 
             <!-- คำบรรยาย -->
             <TextView
                 android:id="@+id/textViewDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:text="กระชายเป็นสมุนไพรที่มีสรรพคุณในการบำรุงร่างกายและรักษาอาการต่าง ๆ"
-                android:textSize="16sp"
-                android:layout_marginBottom="16dp" />
+                android:textSize="16sp" />
 
             <!-- ลักษณะภายนอก -->
             <TextView
                 android:id="@+id/textViewFeaturesTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="🔍 ลักษณะภายนอกของกระชาย"
-                android:textSize="18sp"
-                android:textStyle="bold"
                 android:textColor="@color/black"
-                android:layout_marginBottom="8dp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewFeatures"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:text="กระชายเป็นพืชสมุนไพรที่มีลักษณะเด่น เหง้ามีขนาดสั้นและมีรากสดที่แตกออกเป็นกระจุก"
-                android:textSize="16sp"
-                android:layout_marginBottom="16dp" />
+                android:textSize="16sp" />
 
             <!-- สรรพคุณ -->
             <TextView
                 android:id="@+id/textViewBenefitsTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="💪 สรรพคุณของกระชาย"
-                android:textSize="18sp"
-                android:textStyle="bold"
                 android:textColor="@color/black"
-                android:layout_marginBottom="8dp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewBenefits"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:text="- ช่วยลดอาการท้องอืด ท้องเฟ้อ\n- แก้ปวดมวนท้อง และช่วยเจริญอาหาร\n- บำรุงกำลังและช่วยกระชับกำหนัด"
-                android:textSize="16sp"
-                android:layout_marginBottom="16dp" />
+                android:textSize="16sp" />
 
             <!-- วิธีใช้ -->
             <TextView
                 android:id="@+id/textViewUsageTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="📚 วิธีใช้กระชายในรูปแบบต่างๆ"
-                android:textSize="18sp"
-                android:textStyle="bold"
                 android:textColor="@color/black"
-                android:layout_marginBottom="8dp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewUsage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:text="- ใช้เหง้าหรือรากประมาณครึ่งกำมือ ต้มกับน้ำดื่ม\n- ใช้เหง้าหรือหัวสด ย่างไฟพอสุก ตำกับน้ำปูนใส"
-                android:textSize="16sp"
-                android:layout_marginBottom="16dp" />
+                android:textSize="16sp" />
 
             <!-- ข้อควรระวัง -->
             <TextView
                 android:id="@+id/textViewWarningTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="⚠️ ข้อควรระวังในการใช้กระชาย"
-                android:textSize="18sp"
-                android:textStyle="bold"
                 android:textColor="@color/black"
-                android:layout_marginBottom="8dp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewWarning"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:text="1. ผู้ที่มีความดันโลหิตสูงควรระมัดระวัง\n2. ผู้ที่มีปัญหาตับและไตไม่ควรใช้ในปริมาณมาก\n3. หญิงตั้งครรภ์และให้นมบุตร ควรปรึกษาแพทย์ก่อนใช้"
-                android:textSize="16sp"
-                android:layout_marginBottom="16dp" />
+                android:textSize="16sp" />
 
             <!-- สรุป -->
             <TextView
                 android:id="@+id/textViewSummaryTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="🌟 กระชาย: สมุนไพรไทยที่เต็มไปด้วยสรรพคุณ"
-                android:textSize="18sp"
-                android:textStyle="bold"
                 android:textColor="@color/black"
-                android:layout_marginBottom="8dp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewSummary"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:text="กระชายมีประโยชน์มากมาย แต่ควรใช้ในปริมาณที่เหมาะสมและตามคำแนะนำของแพทย์"
-                android:textSize="16sp"
-                android:layout_marginBottom="16dp" />
+                android:textSize="16sp" />
 
             <!-- คำแนะนำ -->
             <TextView
@@ -149,12 +150,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="หากสนใจใช้กระชาย ควรปรึกษาแพทย์เพื่อความปลอดภัย"
+                android:textColor="@color/green_dark"
                 android:textSize="16sp"
-                android:textStyle="italic"
-                android:textColor="@color/green_dark" />
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/blank"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
 
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/backrotundaBT"
+        android:layout_width="376dp"
+        android:layout_height="71dp"
+        android:layout_x="17dp"
+        android:layout_y="761dp"
+        android:text="Go Back"
+        android:textSize="20sp" />
+
 </AbsoluteLayout>
 
 

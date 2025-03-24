@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">ProjectFinalApp</string>
+    <string-array name="herbs">
+        <item>ฟ้าทะลายโจร</item>
+        <item>กระชาย</item>
+        <item>ขิง</item>
+        <item>กะเพราแดง</item>
+        <item>มะขามป้อม</item>
+        <item>ตะไคร้</item>
+        <item>ชะเอมเทศ</item>
+        <item>หญ้าหนวดแมว</item>
+        <item>ใบเตย</item>
+        <item>ขมิ้นชัน</item>
+    </string-array>
 </resources>

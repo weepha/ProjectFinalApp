@@ -78,15 +78,15 @@
                 android:textColor="@color/black"
                 android:layout_marginBottom="8dp" />
 
+            <!-- วิธีใช้ -->
             <TextView
                 android:id="@+id/textViewBenefits"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:text="✅ รักษาอาการท้องอืด ท้องเฟ้อ เสียดท้อง อาหารไม่ย่อย\n✅ แก้คลื่นไส้ อาเจียน ท้องเสีย\n✅ ช่วยกระตุ้นความอยากอาหาร\n✅ รักษาอาการหวัด ปวดศีรษะจากไมเกรน ปวดข้อ และปวดกล้ามเนื้อ\n✅ บำรุงธาตุไฟ ฆ่าพยาธิ\n✅ ขับเหงื่อ แก้ไอ ขับเสมหะ\n✅ แก้จุกเสียด แก้ลม ลดความดัน"
-                android:textSize="16sp"
-                android:layout_marginBottom="16dp" />
+                android:textSize="16sp" />
 
-            <!-- วิธีใช้ -->
             <TextView
                 android:id="@+id/textViewUsageTitle"
                 android:layout_width="wrap_content"
@@ -143,6 +143,21 @@
                 android:textSize="16sp"
                 android:layout_marginBottom="16dp" />
 
+            <TextView
+                android:id="@+id/blanktextView11"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/backgingerBT"
+        android:layout_width="376dp"
+        android:layout_height="71dp"
+        android:layout_x="17dp"
+        android:layout_y="761dp"
+        android:text="Go Back"
+        android:textSize="20sp" />
+
 </AbsoluteLayout>

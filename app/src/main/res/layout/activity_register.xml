@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_x="264dp"
         android:layout_y="477dp"
-        android:text="Forgetpassword?"
+        android:text="Forget password?"
         android:textColor="#07833D" />
 
     <ImageView

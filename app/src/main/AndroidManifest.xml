@@ -43,13 +43,13 @@
             android:name=".Register"
             android:exported="false" />
         <activity
-            android:name=".activity_herbalinformation"
+            android:name=".AndrographiPaniculata"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".AndrographiPaniculata"
+            android:name=".activity_herbalinformation"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

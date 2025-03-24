@@ -155,5 +155,5 @@
         android:layout_y="604dp"
         android:text="Login"
         android:textColor="#FFFFFF"
-        android:textSize="16sp" />
+        android:textSize="24sp" />
 </AbsoluteLayout>

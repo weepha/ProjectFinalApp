@@ -1,6 +1,8 @@
 package com.example.projectfinalapp;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -41,9 +43,16 @@ public class activity_herbalinformation extends AppCompatActivity {
         mypro = findViewById(R.id.proInfoIV);
         myshow = findViewById(R.id.imageshow);
 
+
+        //Connect DB (Code for Simulating Database)
+        final SharedPreferences sp = this.getSharedPreferences("share_name", Context.MODE_PRIVATE); // sp = connect DB
+        final SharedPreferences.Editor editor = sp.edit(); // editor = use for altering Data
+
         Intent intent1 = getIntent();
         String temp = intent1.getStringExtra("Email");
-        myfullname.setText(temp);
+        String x = sp.getString("my_email",temp);
+        myfullname.setText(x);
+        //myfullname.setText(temp);
 
 
         mylove.setOnClickListener(new View.OnClickListener() {

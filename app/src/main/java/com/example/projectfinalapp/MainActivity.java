@@ -1,12 +1,13 @@
 package com.example.projectfinalapp;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -23,9 +24,8 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button login;
+    Button signup,login;
     EditText myemail,mypass;
-    TextView signupMain;
     private FirebaseAuth mAuth;
 
     @Override
@@ -38,13 +38,15 @@ public class MainActivity extends AppCompatActivity {
         myemail = findViewById(R.id.emailMain);
         mypass =  findViewById(R.id.passMain);
         login = findViewById(R.id.loginMain);
-        signupMain = findViewById(R.id.signup);
+        signup = findViewById(R.id.signupMainBT);
+        final SharedPreferences sp = this.getSharedPreferences("share_name", Context.MODE_PRIVATE);
+        final SharedPreferences.Editor editor = sp.edit();
 
-        signupMain.setOnClickListener(new View.OnClickListener() {
+        signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Register.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(getApplicationContext(),Register.class);
+                startActivity(intent1);
             }
         });
 
@@ -67,9 +69,11 @@ public class MainActivity extends AppCompatActivity {
                                 Toast.makeText(MainActivity.this,user_id,Toast.LENGTH_SHORT).show();
                                 Intent intent = new Intent(getApplicationContext(),activity_herbalinformation.class);
                                 intent.putExtra("Email",email);
+                                editor.putString("my_email",email);
+                                editor.commit();
                                 startActivity(intent);
                             }else{
-                                Intent intent = new Intent(getApplicationContext(),activity_herbalinformation.class);
+                                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                                 startActivity(intent);
                             }
                         }

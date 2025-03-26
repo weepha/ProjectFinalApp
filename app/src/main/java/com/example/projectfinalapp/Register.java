@@ -39,7 +39,7 @@ import java.util.List;
 
 public class Register extends AppCompatActivity {
 
-    TextView signIn;
+    TextView mysignIn;
     GoogleSignInOptions gso;
     GoogleSignInClient gsc;
     Button login;
@@ -81,7 +81,7 @@ public class Register extends AppCompatActivity {
                     }
                 });
 
-        signIn = findViewById(R.id.signinReTV);
+        mysignIn = findViewById(R.id.signinReTV);
         login = findViewById(R.id.loginReBT);
         fb = findViewById(R.id.facebook);
         Gg = findViewById(R.id.google);
@@ -114,7 +114,7 @@ public class Register extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String email,password,username;
-                //username = myfullnname.getText().toString();
+                username = myfullnname.getText().toString();
                 email = myemail.getText().toString();
                 password = mypass.getText().toString();
                 if(TextUtils.isEmpty(email)||TextUtils.isEmpty(password)){
@@ -124,9 +124,9 @@ public class Register extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(task.isSuccessful()){
-                                Toast.makeText(Register.this,"Register is complete!!"+mAuth.getCurrentUser().getEmail().toString(),Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Register.this,"Register is complete!! "+mAuth.getCurrentUser().getEmail().toString(),Toast.LENGTH_SHORT).show();
                                 Intent intent = new Intent(getApplicationContext(),MainActivity.class);
-                                //intent.putExtra("user",username);
+                                intent.putExtra("user",username);
                                 startActivity(intent);
                             }else {
                                 Toast.makeText(Register.this,"Register is complete!!",Toast.LENGTH_SHORT).show();
@@ -140,7 +140,7 @@ public class Register extends AppCompatActivity {
         });
 
         //Sign In Main page
-        signIn.setOnClickListener(new View.OnClickListener() {
+        mysignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),MainActivity.class);

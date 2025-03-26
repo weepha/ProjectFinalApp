@@ -44,4 +44,7 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation(platform("com.google.firebase:firebase-bom:33.11.0"))
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.facebook.android:facebook-android-sdk:latest.release")
+    implementation ("com.squareup.picasso:picasso:2.8")
 }

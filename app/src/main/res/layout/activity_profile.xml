@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1F0AA"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="164dp"
+        android:layout_y="108dp"
+        android:text="Profile"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/logoutBT"
+        android:layout_width="329dp"
+        android:layout_height="54dp"
+        android:layout_x="46dp"
+        android:layout_y="258dp"
+        android:backgroundTint="#6EA070"
+        android:text="Log out" />
+
+    <TextView
+        android:id="@+id/proname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="171dp"
+        android:layout_y="173dp"
+        android:text="Herbal"
+        android:textSize="20sp" />
+
+</AbsoluteLayout>

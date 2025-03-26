@@ -41,6 +41,15 @@ public class activity_herbalinformation extends AppCompatActivity {
         mypro = findViewById(R.id.proInfoIV);
         myshow = findViewById(R.id.imageshow);
 
+        //Profile page ImageView
+        mypro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Profile.class);
+                startActivity(intent);
+            }
+        });
+
         //Step 3 spinner select herb
         myselect.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override

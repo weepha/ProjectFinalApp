@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">ProjectFinalApp</string>
+
+    <string name="facebook_app_id">2025874021229416</string>
+    <string name="fb_login_protocol_scheme">fb2025874021229416</string>
+    <string name="facebook_client_token">56789</string>
+
+
     <string-array name="herbs">
         <item>ฟ้าทะลายโจร</item>
         <item>กระชาย</item>

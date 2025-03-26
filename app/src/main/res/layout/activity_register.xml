@@ -8,7 +8,7 @@
     tools:context=".Register">
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/forgotpassTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="264dp"
@@ -44,8 +44,8 @@
         android:id="@+id/imageView10"
         android:layout_width="329dp"
         android:layout_height="54dp"
-        android:layout_x="45dp"
-        android:layout_y="328dp"
+        android:layout_x="39dp"
+        android:layout_y="325dp"
         app:srcCompat="@drawable/square" />
 
     <TextView
@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_x="156dp"
         android:layout_y="548dp"
-        android:text="Or continue eith"
+        android:text="Or continue with"
         android:textColor="#040404" />
 
     <ImageView
@@ -85,7 +85,7 @@
         app:srcCompat="@drawable/key_photoroom" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/eyeIV"
         android:layout_width="56dp"
         android:layout_height="36dp"
         android:layout_x="303dp"
@@ -93,7 +93,7 @@
         app:srcCompat="@drawable/eye_photoroom" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/nameET"
         android:layout_width="198dp"
         android:layout_height="wrap_content"
         android:layout_x="124dp"
@@ -104,7 +104,7 @@
         android:textColor="#3F51B5" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/emailReET"
         android:layout_width="198dp"
         android:layout_height="wrap_content"
         android:layout_x="125dp"
@@ -115,7 +115,7 @@
         android:textColor="#3F51B5" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passRe"
         android:layout_width="177dp"
         android:layout_height="wrap_content"
         android:layout_x="122dp"
@@ -124,31 +124,13 @@
         android:hint="Password"
         android:inputType="textPassword" />
 
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="323dp"
-        android:layout_height="58dp"
-        android:layout_x="45dp"
-        android:layout_y="405dp"
-        app:srcCompat="@drawable/square2" />
-
     <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="183dp"
-        android:layout_y="425dp"
-        android:text="Login"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/signinReTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="263dp"
         android:layout_y="677dp"
-        android:text="Sign up"
+        android:text="Sign in"
         android:textColor="#088940" />
 
     <ImageView
@@ -168,7 +150,7 @@
         app:srcCompat="@drawable/straightline" />
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/facebook"
         android:layout_width="70dp"
         android:layout_height="62dp"
         android:layout_x="108dp"
@@ -176,7 +158,7 @@
         app:srcCompat="@drawable/facebook" />
 
     <ImageView
-        android:id="@+id/imageView14"
+        android:id="@+id/google"
         android:layout_width="wrap_content"
         android:layout_height="61dp"
         android:layout_x="222dp"
@@ -190,5 +172,14 @@
         android:layout_x="60dp"
         android:layout_y="251dp"
         app:srcCompat="@drawable/email" />
+
+    <Button
+        android:id="@+id/loginReBT"
+        android:layout_width="329dp"
+        android:layout_height="54dp"
+        android:layout_x="40dp"
+        android:layout_y="408dp"
+        android:backgroundTint="@color/button_pressed"
+        android:text="Log in" />
 
 </AbsoluteLayout>

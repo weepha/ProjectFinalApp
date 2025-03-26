@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_x="271dp"
         android:layout_y="557dp"
-        android:text="forgetpassword"
+        android:text="forget password"
         android:textColor="#07833D" />
 
     <ImageView
@@ -95,21 +95,13 @@
         android:textColor="#979090" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="247dp"
         android:layout_y="664dp"
         android:text="Sign up"
         android:textColor="#088940" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="323dp"
-        android:layout_height="58dp"
-        android:layout_x="50dp"
-        android:layout_y="589dp"
-        app:srcCompat="@drawable/square2" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -128,32 +120,32 @@
         app:srcCompat="@drawable/eye_photoroom" />
 
     <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="198dp"
+        android:id="@+id/passMain"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="130dp"
-        android:layout_y="399dp"
-        android:ems="10"
-        android:hint="Fullname"
-        android:inputType="text"
-        android:textColor="#3F51B5" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="191dp"
-        android:layout_height="wrap_content"
-        android:layout_x="119dp"
-        android:layout_y="490dp"
+        android:layout_x="117dp"
+        android:layout_y="493dp"
         android:ems="10"
         android:inputType="textPassword" />
 
-    <TextView
-        android:id="@+id/textView4"
+    <EditText
+        android:id="@+id/nameMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="172dp"
-        android:layout_y="604dp"
-        android:text="Login"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp" />
+        android:layout_x="119dp"
+        android:layout_y="397dp"
+        android:ems="10"
+        android:hint="Fullname"
+        android:inputType="text"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/loginMain"
+        android:layout_width="329dp"
+        android:layout_height="54dp"
+        android:layout_x="46dp"
+        android:layout_y="598dp"
+        android:backgroundTint="@color/button_pressed"
+        android:text="Log in"
+        android:textSize="16sp" />
 </AbsoluteLayout>

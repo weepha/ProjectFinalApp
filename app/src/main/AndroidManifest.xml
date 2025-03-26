@@ -15,6 +15,9 @@
         android:theme="@style/Theme.ProjectFinalApp"
         tools:targetApi="31">
         <activity
+            android:name=".Lovepage"
+            android:exported="false" />
+        <activity
             android:name=".Profile"
             android:exported="false" />
         <activity

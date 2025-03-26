@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#D1D794"
+    tools:context=".Lovepage">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="#78C17B" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="192dp"
+        android:text="ขมิ้นชัน"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99dp"
+        android:layout_y="274dp"
+        android:text="ฟ้าทะลายโจร"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99dp"
+        android:layout_y="366dp"
+        android:text="ตะไคร้"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="458dp"
+        android:text="ขิง"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_x="133dp"
+        android:layout_y="91dp"
+        android:gravity="center"
+        android:text="รายการโปรด"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/backlove"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_x="10dp"
+        android:layout_y="55dp"
+        app:srcCompat="@drawable/arrow" />
+
+</AbsoluteLayout>

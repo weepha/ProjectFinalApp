@@ -47,8 +47,8 @@ public class Profile extends AppCompatActivity {
         myfullname = findViewById(R.id.fullname);
         myemail = findViewById(R.id.emailpro);
 
-        gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
-        gsc = GoogleSignIn.getClient(this,gso);
+      //  gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
+      //  gsc = GoogleSignIn.getClient(this,gso);
 
         Intent intent1 = getIntent();
         String temp = intent1.getStringExtra("Email");

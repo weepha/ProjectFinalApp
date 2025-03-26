@@ -177,7 +177,7 @@ public class Register extends AppCompatActivity {
     }
     void navigateToProfile(){
         finish();
-        Intent intent = new Intent(Register.this,Profile.class);
+        Intent intent = new Intent(getApplicationContext(),Profile.class);
         startActivity(intent);
     }
 }

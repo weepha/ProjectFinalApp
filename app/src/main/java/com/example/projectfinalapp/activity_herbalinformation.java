@@ -46,6 +46,14 @@ public class activity_herbalinformation extends AppCompatActivity {
         myfullname.setText(temp);
 
 
+        mylove.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Lovepage.class);
+                startActivity(intent);
+            }
+        });
+
         //Profile page ImageView
         mypro.setOnClickListener(new View.OnClickListener() {
             @Override

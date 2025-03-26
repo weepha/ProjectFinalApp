@@ -129,7 +129,7 @@
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/nameMain"
+        android:id="@+id/emailMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="119dp"

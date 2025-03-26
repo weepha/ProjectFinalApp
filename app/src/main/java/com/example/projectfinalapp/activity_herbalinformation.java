@@ -41,11 +41,18 @@ public class activity_herbalinformation extends AppCompatActivity {
         mypro = findViewById(R.id.proInfoIV);
         myshow = findViewById(R.id.imageshow);
 
+        Intent intent1 = getIntent();
+        String temp = intent1.getStringExtra("Email");
+        myfullname.setText(temp);
+
+
         //Profile page ImageView
         mypro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String email = myfullname.getText().toString();
                 Intent intent = new Intent(getApplicationContext(),Profile.class);
+                intent.putExtra("Email",email);
                 startActivity(intent);
             }
         });
